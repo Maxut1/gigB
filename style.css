@@ -305,6 +305,7 @@ body {
 @media (max-width: 1024px) {
     .footer-butonn {
         padding: 5px 20px;
+        margin-left: 70%;
     }
 }
 
@@ -334,6 +335,7 @@ hr {
     float: left;
 }
 
+
 .spicka {
     display: flex;
     justify-content: space-around;
@@ -348,6 +350,7 @@ hr {
 @media (max-width: 1024px) {
     .spicka {
         flex-direction: column;
-        line-height: 55px;
+        line-height: 40px;
+        top: 500px;
     }
 }
