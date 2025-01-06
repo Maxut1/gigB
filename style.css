@@ -354,3 +354,174 @@ hr {
         top: 500px;
     }
 }
+
+.header-general-text {
+    color: aliceblue;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-top-par {
+    tab-size: 20px;
+    line-height: 25px;
+    opacity: 60%;
+    margin-top: 30px;
+}
+
+.header-Contact {
+    background-image: url(Mask\ Group-4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.Message {
+    position: absolute;
+    top: 440px;
+    right: 210px;
+    width: 436px;
+    height: 614px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px rgba(16, 122, 177, 0.2);
+}
+
+.message-text {
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.send-us {
+    color: #1F3F68;
+}
+
+.message-parag {
+    color: #1F3F68;
+    opacity: 80%;
+}
+
+.input-message {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    border-radius: 5px;
+    border: 1px solid #356EAD;
+    opacity: 40%;
+}
+
+.input-message-mess {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-right: 150px;
+    border-radius: 5px;
+    border: 1px solid #356EAD;
+    opacity: 40%;
+}
+
+input::placeholder {
+    color: #1F3F68;
+    opacity: 20%;
+    text-align: start;
+}
+
+.message-buton {
+    display: block;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px 135px;
+    border: none;
+    background-color: #5A98D0;
+    color: white;
+}
+
+.top-spicok {
+    flex-direction: column;
+    display: block;
+    text-align: start;
+    margin-left: 23%;
+    margin-top: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-spocok-h3 {
+    color: #1F3F68;
+    font-size: 20px;
+}
+
+.text-gen-p {
+    color: #1F3F68;
+    opacity: 60%;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.namber-phone-gen {
+    padding-left: 0;
+}
+
+.namber-phone {
+    color: #1F3F68;
+    opacity: 60%;
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.namber-phone::before {
+    content: url(Vector.png);
+    margin-right: 20px;
+    position: relative;
+    top: 4px;
+}
+
+
+.carta-yandex {
+    margin-top: 100px;
+    margin-left: 23%;
+}
+
+.servs-gen {
+    padding-left: 0;
+}
+
+.servs {
+    color: #1F3F68;
+    opacity: 60%;
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.servs::before {
+    content: url(ic_email_24px.png);
+    margin-right: 20px;
+    position: relative;
+    top: 6px;
+}
+
+.servs-1 {
+    color: #1F3F68;
+    opacity: 60%;
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.servs-1::before {
+    content: url(ic_language_24px.png);
+    margin-right: 20px;
+    position: relative;
+    top: 6px;
+}
+
+.gen-class {
+    display: block;
+    align-items: center;
+}
+
+
