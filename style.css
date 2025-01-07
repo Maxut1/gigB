@@ -372,27 +372,33 @@ hr {
 .header-Contact {
     background-image: url(Mask\ Group-4.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 250px;
     margin-top: 50px;
 }
 
+@media (max-width: 1024px) {
+  
+}
+
 .Message {
-    position: absolute;
-    top: 440px;
-    right: 210px;
-    width: 436px;
-    height: 614px;
+    margin-top: 50px;
+    width: 40%;
+    /* height: 614px; */
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 5px 20px 50px rgba(16, 122, 177, 0.2);
+    padding: 30px 50px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-.message-text {
-    padding-left: 50px;
-    padding-top: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@media (max-width: 667px) {
+    .Message {
+        width: 90%;
+    }
 }
+
 
 .send-us {
     color: #1F3F68;
@@ -401,27 +407,18 @@ hr {
 .message-parag {
     color: #1F3F68;
     opacity: 80%;
+    max-width: 250px;
 }
 
 .input-message {
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 150px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #356EAD;
     opacity: 40%;
 }
 
-.input-message-mess {
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 70px;
-    padding-right: 150px;
-    border-radius: 5px;
-    border: 1px solid #356EAD;
-    opacity: 40%;
-}
 
 input::placeholder {
     color: #1F3F68;
@@ -433,17 +430,37 @@ input::placeholder {
     display: block;
     justify-content: center;
     margin-top: 50px;
-    padding: 20px 135px;
+    padding: 20px 10px;
+    width: 100%;
     border: none;
+    border-radius: 10px;
     background-color: #5A98D0;
     color: white;
+}
+
+.input-message--textarea {
+    height: 8em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .top-spicok {
     flex-direction: column;
     display: block;
     text-align: start;
-    margin-left: 23%;
+    /* margin-left: 23%; */
     margin-top: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -482,7 +499,9 @@ input::placeholder {
 
 .carta-yandex {
     margin-top: 100px;
-    margin-left: 23%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .servs-gen {
@@ -520,8 +539,9 @@ input::placeholder {
 }
 
 .gen-class {
-    display: block;
-    align-items: center;
+    width: 95%;
+    max-width: 940px;
+    margin: 0 auto;
 }
 
 
